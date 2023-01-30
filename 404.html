@@ -10,6 +10,7 @@
                 var location = window.location;
                 var path = location.pathname.split("/")[PATH_SEGMENTS_TO_SKIP + 1] || "";
                 if (path == "404.html") path = "";
+                if (['xii-corso','12-corso','corso-12','12'].includes(path)) path = "xii-corso";
                 location.replace(WIX + path);
             }
             redirect();
