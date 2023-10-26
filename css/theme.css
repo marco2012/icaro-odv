@@ -9920,6 +9920,9 @@ img {
   .mobile-div {
     display: block; /* Show the div on mobile devices */
   }
+  .padding-zero {
+    padding-top:0px !important;
+  }
 }
 
 /* Default styles for the div - Hidden by default */

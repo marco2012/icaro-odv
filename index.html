@@ -42,7 +42,7 @@
   <meta property="og:description" content="Agenzia Europea per la Tutela Ambientale" />
   <!-- <meta property="og:image" content="https://icaro-odv.it/images/og_img.jpg" /> -->
   
-  <link rel="stylesheet" href="css/theme.min.css">
+  <link rel="stylesheet" href="css/theme.css">
 
    <style>
 
@@ -88,7 +88,7 @@
 
     <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
   <div class="container">
-    <a class="navbar-brand pe-4 fs-4" href="/">
+    <a class="navbar-brand pe-4 fs-4" style="padding-left: 15px;" href="/">
   <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-layers-half" viewbox="0 0 16 16">
     <path d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zM8 9.433 1.562 6 8 2.567 14.438 6 8 9.433z"/>
   </svg> -->
@@ -96,7 +96,7 @@
   <span class="ms-1 fw-bolder">Icaro OdV</span>
 </a>
 
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="border-radius: 25px;">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -154,9 +154,9 @@
     <div class="row">
 
 <div class="col-lg-7 py-vh-6 position-relative m-4" data-aos="fade-right">
-  <h1 class="display-1 fw-bold mt-5">Icaro OdV</h1>
-  <p class="lead">Agenzia Europea per la Tutela Ambientale</p>
-  <a href="#corsi" class="btn btn-dark btn-xl shadow me-3 rounded-pill my-5">Scopri i nostri corsi</a>
+  <h1 class="display-1 fw-bold">Icaro OdV</h1>
+  <p class="lead" style="margin-bottom: 280px;">Agenzia Europea per la Tutela Ambientale</p>
+  <!-- <a href="#corsi" class="btn btn-dark btn-xl shadow me-3 rounded-pill my-5">12° Corso</a> -->
 </div>
 
 
@@ -201,11 +201,12 @@
 </div> -->
 
 <a name="corsi"></a>
-<div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+<div class="py-vh-4 bg-gray-100 w-100 overflow-hidden padding-zero" id="aboutus">
   <div class="container">
       
 <div class="row d-flex justify-content-between align-items-center">
-  <div class="col-lg-6">
+  
+  <div class="col-lg-6 desktop-div">
   <div class="row gx-5 d-flex">
     <div class="col-md-11 desktop-div">
       <div class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right" style="background-image: url(img/webp/people.webp);--bs-aspect-ratio: 50%;">
@@ -221,9 +222,10 @@
     </div>
   </div>
 </div>
+
 <div class="col-lg-4 p-4">
-  <h3 class="py-5 border-top border-dark" data-aos="fade-left">12° Corso per Guardie Zoofile</h3>
-  <p data-aos="fade-left" data-aos-delay="200" class="h5">Corso per Guardie Zoofile Regionali + Corso di Polizia Giudiziaria per Guardie Zoofile Prefettizie.
+  <h3 class="py-5 border-top" data-aos="fade-left">12° Corso per Guardie Zoofile</h3>
+  <p data-aos="fade-left" data-aos-delay="200" class="h5">Corso per Guardie Zoofile Regionali + Corso di Polizia Giudiziaria.
   </p>
   <br/>
   <!-- <p>
@@ -231,6 +233,24 @@
   </p> -->
   <a id="iscrizione_corso" href="https://icaro-onlus.wixsite.com/home/xii-corso" class="btn btn-success btn-xl shadow me-3 rounded-pill my-5" data-aos="fade-left" data-aos-delay="400">Maggiori informazioni</a>
 </div>
+
+<div class="col-lg-6 mobile-div">
+  <div class="row gx-5 d-flex">
+    <div class="col-md-11 desktop-div">
+      <div class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right" style="background-image: url(img/webp/people.webp);--bs-aspect-ratio: 50%;">
+      </div>
+    </div>
+    <div class="col-md-5 offset-md-1 desktop-div">
+      <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up" style="background-image: url(img/webp/cat.webp);">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left" style="background-image: url(img/webp/dog.webp);--bs-aspect-ratio: 150%; margin-top:0!important;">
+      </div>
+    </div>
+  </div>
+</div>
+
 </div>
 
   </div>
@@ -242,7 +262,7 @@
     <div class="row d-flex justify-content-center">
       <div class="row d-flex justify-content-center text-center">
   <div class="col-lg-8 text-center p-4" data-aos="fade">
-        <p class="text-secondary lead">Chi Siamo</p>
+        <p class="lead h4">Chi Siamo</p><br/>
     <h2 class="display-6 mb-5">Icaro OdV è una associazione non profit che si prefigge lo scopo di proteggere l'Ambiente e gli Animali attraverso l'opera dei suoi Sodali e, in particolare, delle Guardie Ittiche e Zoofile ad essa afferenti che in virtù del loro proficuo impegno ottengono lusinghieri risultati.
     </h2>
   </div>
@@ -276,6 +296,10 @@
       <p class="text-black-50 h4">Guardie Zoofile formate</p>
     </div>
   </div>
+
+  <a id="nostri_corsi" href="https://icaro-onlus.wixsite.com/home/corsi" class="btn btn-dark btn-xl shadow me-3 rounded-pill my-5" data-aos="fade-left" data-aos-delay="400">Scopri i nostri corsi</a>
+
+
 </div>
 </div>
 
@@ -658,10 +682,10 @@
   </svg> -->
   <img src="img/webp/logo.webp" width="40px" height="40px">
   <address class="text-secondary mt-3">
-    <strong>Icaro OdV</strong><br>
-    facebook.com/icaro.odv<br>
-    info@icaro-odv.it<br>
-    339 593 8641
+    <strong style="color: black;">Icaro OdV</strong><br>
+    <a href="https://facebook.com/icaro.odv" target="_blank" style="text-decoration: none;">facebook.com/icaro.odv</a><br>
+    <a href="mailto:info@icaro-odv.it" style="text-decoration: none;">info@icaro-odv.it-</a><br>
+    <a href="tel:3395938641" style="text-decoration: none;">3395938641</a>
   </address>
 </div>
 <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
@@ -681,6 +705,9 @@
     </li>
     <li class="nav-item">
       <a class="nav-link link-secondary ps-0" href="https://icaro-onlus.wixsite.com/home/donazioni">Donazioni</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="/cookie-policy.html">Cookie Policy</a>
     </li>
 
   </ul>
