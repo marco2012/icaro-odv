@@ -9923,6 +9923,9 @@ img {
   .padding-zero {
     padding-top:0px !important;
   }
+  .padding-y {
+    padding: 20px 6px;
+  }
 }
 
 /* Default styles for the div - Hidden by default */
@@ -9935,4 +9938,8 @@ img {
   .desktop-div {
     display: block; /* Show the div on desktop devices */
   }
+}
+
+a.anchor{
+  display: block; position: relative; top: -70px; visibility: hidden;
 }
